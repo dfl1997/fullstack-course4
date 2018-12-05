@@ -9,8 +9,6 @@ h1 {
 }
 
 @media (min-width: 992px) {
-  section {}
-
   .col-l-4 {
     width: calc(33.33% - 21px);
     float: left;
@@ -46,7 +44,6 @@ section>h2 {
   border-bottom: 1px solid black;
   padding: 5px 50px 5px 50px;
   text-align: center;
-
 }
 
 #title1 {
