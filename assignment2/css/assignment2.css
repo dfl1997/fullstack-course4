@@ -23,9 +23,9 @@ h1 {
     float: left;
   }
 
-  #last {
+  .col-m-12 {
     width: calc(100% - 21px);
-    /* clear: both; */
+    float: left;
   }
 }
 
@@ -37,12 +37,13 @@ section {
   position: relative;
 }
 
-.title {
-  float: right;
+section>h2 {
+  margin: 0;
   position: absolute;
-  top: -1px;
-  right: -1px;
-  border: 1px solid black;
+  top: 0;
+  right: 0;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
   padding: 5px 50px 5px 50px;
   text-align: center;
 
@@ -61,7 +62,6 @@ section {
 }
 
 p {
-  clear: right;
   position: relative;
-  top: 10px;
+  top: 20px;
 }
