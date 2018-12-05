@@ -61,7 +61,7 @@ section>h2 {
   background-color: orchid;
 }
 
-p {
+section>p {
   position: relative;
   top: 20px;
 }
