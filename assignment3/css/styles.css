@@ -1,0 +1,101 @@
+body {
+    font-family: 'Jua', sans-serif;
+    color: black;
+}
+
+.navbar {
+    background-color: #aaa;
+    border: 2px solid black;
+    border-radius: 0;
+}
+
+.navbar-brand>h2 {
+    margin-top: -5px;
+}
+
+.container {
+    width: 95%;
+}
+
+.col-md-12,
+.col-sm-12,
+.col-xs-12 {
+    background-color: #aaa;
+    float: left;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+
+@media (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+
+
+    .navbar-default .navbar-toggle {
+        border-color: black;
+    }
+
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: #aaa;
+    }
+
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #aaa;
+    }
+
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #aaa;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: black;
+    }
+
+    ul.nav {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    li {
+        border: 1px solid black;
+        background-color: white;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        color: black;
+        background-color: white;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 1.5em;
+        color: black;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover {
+        background-color: #e7e7e7;
+    }
+}
